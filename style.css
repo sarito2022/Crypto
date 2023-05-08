@@ -1,0 +1,161 @@
+.picture{
+    background-image: url('money.webp'); 
+    background-size: 100px 90px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: antiquewhite;
+    height: 95px;
+    padding-top: 18px;
+    padding-left: 20px;
+    text-shadow: 1px 1px rgb(0, 145, 255);
+    background-attachment: fix;
+}
+.navLine{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+}
+.info{
+    display: none;
+}
+.nav a{
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top:15px ;
+    padding-top: 25px;
+    background-image: url('money2.jpg'); 
+    background-repeat: repeat;
+    background-size: 400px 200px;
+    padding-bottom: 30px;
+}
+.switch{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+.modal .switch{
+    position: relative; 
+    float: left;
+    width: 40%;
+    top:0;
+}
+.modal h5{
+    color: blue;
+}
+.myCard{
+    width: 18rem;
+    background-color: rgb(208, 248, 248) !important;
+}
+.containerReport{
+    display: none;
+}
+.containerReport h1{
+    text-shadow: 1px 1px pink;
+}
+.containerAbout{
+    display: none;
+}
+.containerAbout img{
+    width: 150px;
+    height: 150px;
+}
+.containerAbout h1{
+    color: rgb(249, 32, 104);
+    text-shadow: 1px 1px grey;
+}
+.myImg{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+}
+.warmp .modal{
+    display: none;
+}
+.warmpModal{
+    display: flex;
+    justify-content: space-between;
+}
+.mySwitch{
+    border: 1pxp solid black;
+}
+.warmp .progress{
+    display: none;
+    color: blue;
+}
+
+@media screen and (min-width:767px) and (max-width: 1023px){
+    .picture{
+        padding-top: 20px;
+    }
+    .navLine{
+        display: flex;
+        justify-content: left;
+        margin-top: 20px;
+    }
+    .nav{
+        margin-left: 70px;
+    }
+    .navLine #search{
+        margin-left: 74px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width:766px){
+    .picture{
+        background-image: none; 
+        background-color: antiquewhite;
+        height: 95px;
+        padding-top: 27px;
+        padding-left: 20px;
+        text-shadow: 1px 1px grey;
+        background-attachment: fix;
+    }
+    .container, .container-md{
+        padding-left: 0% !important ;
+        padding-right: 0% !important;
+        width: 100% !important;
+    }
+    .navLine {
+        display: block;
+        justify-content: space-around;
+        padding-top: 10px;
+        margin-top: 13px;
+    }
+    .myCard{
+        padding-left: 0;
+        width: 100% !important;
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+    #search{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+    
+
+
+
+
+
+
+
